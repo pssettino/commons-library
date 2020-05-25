@@ -1,0 +1,16 @@
+plugins {
+	id 'io.spring.dependency-management' version '1.0.9.RELEASE'
+	id 'java'
+}
+
+group = 'com.scumbox.mm.commons-library'
+version = '0.0.1'
+sourceCompatibility = '1.8'
+
+repositories {
+	mavenCentral()
+}
+
+test {
+	useJUnitPlatform()
+}
